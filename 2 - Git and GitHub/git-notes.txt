@@ -7,10 +7,31 @@ git config --global user.email "email"
 git config user.name
 git config user.email
 
+# Initialize Git Repository
+git init
+
 # Legend
-U - untracked
+U - Untracked
 A - Added
 M - Modified
 
 # Git Three Stage
 
+- Check the status
+git status
+
+- Adding file to to the staging
+git add .
+
+- Adding a specific modified file to the staging area
+git add [filename]
+
+- Create a commit
+git commit
+git commit -m "add notes"
+
+- Show the history
+git log
+
+- Shorter history
+git log --oneline
