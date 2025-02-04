@@ -35,3 +35,15 @@ git log
 
 - Shorter history
 git log --oneline
+
+# Branching
+
+- Create a Branch
+git branch [branch-name]
+
+- List all branches
+git branch -a
+
+- Switch to a diffrent branch
+git switch [branch-name]
+git checkout [branch-name]
