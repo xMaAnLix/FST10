@@ -1,0 +1,38 @@
+/*  Static Positioning */
+/*  Elements follow the normal document flow */
+/*  Top - Bottom */
+
+#relative {
+  background-color: lightgreen;
+  color: red;
+  position: relative;
+  /* Access: top, left, buttom, right */
+  bottom: 20px;
+  right: 50px;
+}
+
+#absolute {
+  background-color: black;
+  color: white;
+  position: absolute;
+  /* Access: top, left, buttom, right */
+  top: 0px;
+  right: 50px;
+}
+
+#fixed {
+  background-color: blue;
+  color: white;
+  position: fixed;
+  /* Access: top, left, buttom, right */
+  top: 250px;
+  right: 25px;
+}
+
+#sticky {
+  background-color: red;
+  color: white;
+  position: sticky;
+  /* Access: top, left, buttom, right */
+  top: 10px;
+}

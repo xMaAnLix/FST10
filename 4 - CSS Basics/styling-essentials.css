@@ -1,0 +1,109 @@
+/* Default Font Style: Times New Roman */
+/* Default Font Size: 16px */
+#text-styling {
+  font-family: "Arial", sans-serif;
+
+  /* Font Weight */
+  font-weight: normal; /* Default */
+  font-weight: bolder;
+  font-weight: lighter;
+  font-weight: bold;
+
+  /* Font Weight - Numerical Values */
+  font-weight: 100;
+  font-weight: 200;
+  font-weight: 300;
+  font-weight: 500;
+  font-weight: 600;
+  font-weight: 700;
+  font-weight: 800;
+  font-weight: 900;
+  font-weight: 950;
+  font-weight: 400; /* Default */
+
+  /*  Font Style */
+  font-style: normal; /* Default */
+  font-style: italic;
+  font-style: oblique;
+
+  /* Text- Align */
+  text-align: left; /* Default */
+  text-align: right;
+  text-align: justify;
+  text-align: center;
+
+  /* Line Height */
+  line-height: normal; /* Default */
+  line-height: 1.5;
+  line-height: 90%;
+  line-height: 32px;
+
+  /* Letter Spacing */
+  letter-spacing: normal; /* Default */
+  letter-spacing: -4px;
+  letter-spacing: 4px;
+}
+
+#text-decoration {
+  /* Text Decoration Line */
+  text-decoration-line: none; /* Default */
+  text-decoration-line: line-through;
+  text-decoration-line: underline;
+  text-decoration-line: overline;
+
+  /* Text Decoration Style */
+
+  text-decoration-style: solid; /* Default */
+  text-decoration-style: dotted;
+  text-decoration-style: double;
+  text-decoration-style: dashed;
+  text-decoration-style: wavy;
+
+  /* Text Decoration Color */
+  text-decoration-color: red;
+
+  /* Text Decoration Thickness */
+  text-decoration-thickness: 2px; /* Default */
+
+  /* Combine All Properties */
+  /* text Decoration */
+  text-decoration: underline dotted blue 50%;
+  text-decoration: line-through dotted;
+}
+
+#colors {
+  /* Keyword / Color Names */
+  color: yellow;
+
+  /* RGB - Red, Green, Blue */
+  /* 0 - 255 */
+  /* RGBA - Red, Green, Blue, Alpha */
+  /* Alpha - Opacity */
+  /* 0 - 1 0 - Transparent, 1 - Opaque*/
+
+  color: rgb(255, 0, 0);
+  background-color: rgba(0, 0, 255, 0.5);
+
+  /* Hexadecimal values */
+  /* 0 - 9, A - F */
+  /* A - 10, B - 11, C - 12, D - 13, E- 14, F - 15 */
+  color: #00ff00;
+  background-color: #ff000099;
+}
+
+#absolute-unit-px {
+  font-size: 16px; /* Default */
+  font-size: 24px;
+}
+
+#relative-unit-em {
+  /* Relative to the font-size of the parent element */
+  font-size: 1em; /* Default 1em = 16px */
+  font-size: 2em;
+}
+
+#relative-unit-rem {
+  /*  Relative to the font-size of the root element */
+  font-size: 1rem; /* Default 1rem = 16px */
+  font-size: 3rem;
+}

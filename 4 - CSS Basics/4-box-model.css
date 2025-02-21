@@ -1,0 +1,60 @@
+.box1 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+/* 1 value - all sides */
+/* 2 values - top bottom / left right */
+/* 3 values - top / left and right / bottom */
+/* 4 values - top / right / bottom / left */
+.box2 {
+  padding: 10px;
+  padding: 20px 50px;
+  padding: 5px 70px 15px;
+  padding: 25px 25px 25px 50px;
+}
+
+.box3 {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+
+/* 1 value - all sides */
+/* 2 values - top bottom / left right */
+/* 3 values - top / left and right / bottom */
+/* 4 values - top / right / bottom / left */
+.box4 {
+  margin: 10px;
+  margin: 20px 20px;
+  margin: 30px 50px 10px;
+  margin: 5px 5px 5px 5px;
+}
+
+.mix-borders {
+  height: 200px;
+  width: 200px;
+
+  /* solid dashed dotted double */
+  border-style: double;
+
+  /* 1 value - all sides */
+  /* 2 values - top bottom / left right */
+  /* 3 values - top / left and right / bottom */
+  /* 4 values - top / right / bottom / left */
+  border-width: 5px 5px 5px 5px;
+  border-color: blue;
+
+  /* Shorthand */
+  border: 10px dotted black;
+}
+
+.circle-container {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  text-align: center;
+}
